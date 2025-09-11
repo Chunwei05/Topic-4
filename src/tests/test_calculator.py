@@ -19,3 +19,9 @@ def test_multiply_updates_answer():
     c.add(2).multiply(3)
     assert c.get_answer() == 6
 
+def test_power_updates_answer():
+    c = Calculator()
+    c.add(2).power(3)  # 2^3 = 8
+    assert c.get_answer() == 8
+
+
