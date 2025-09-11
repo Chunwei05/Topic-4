@@ -5,3 +5,8 @@ class Calculator:
     def get_answer(self):
         return self.answer
 
+    def add(self, num):
+        self.answer += num
+        return self
+
+
