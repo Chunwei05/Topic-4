@@ -29,5 +29,11 @@ def test_reset_sets_answer_to_zero():
     c.add(10).reset()
     assert c.get_answer() == 0
 
+def test_chaining_operations():
+    c = Calculator()
+    c.add(1).multiply(4).subtract(1)
+    assert c.get_answer() == 3
+
+
 
 
