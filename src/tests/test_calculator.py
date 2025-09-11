@@ -4,3 +4,9 @@ def test_initial_answer_is_zero():
     c = Calculator()
     assert c.get_answer() == 0
 
+def test_add_updates_answer():
+    c = Calculator()
+    c.add(5)
+    assert c.get_answer() == 5
+
+
