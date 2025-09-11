@@ -17,5 +17,10 @@ class Calculator:
         self.answer *= num
         return self
 
+    def power(self, num):
+        self.answer **= num
+        return self
+
+
 
 
