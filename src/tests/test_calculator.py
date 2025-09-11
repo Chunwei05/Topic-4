@@ -9,4 +9,9 @@ def test_add_updates_answer():
     c.add(5)
     assert c.get_answer() == 5
 
+def test_subtract_updates_answer():
+    c = Calculator()
+    c.add(10).subtract(4)
+    assert c.get_answer() == 6
+
 
