@@ -14,4 +14,8 @@ def test_subtract_updates_answer():
     c.add(10).subtract(4)
     assert c.get_answer() == 6
 
+def test_multiply_updates_answer():
+    c = Calculator()
+    c.add(2).multiply(3)
+    assert c.get_answer() == 6
 
