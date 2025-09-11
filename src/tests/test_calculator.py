@@ -24,4 +24,10 @@ def test_power_updates_answer():
     c.add(2).power(3)  # 2^3 = 8
     assert c.get_answer() == 8
 
+def test_reset_sets_answer_to_zero():
+    c = Calculator()
+    c.add(10).reset()
+    assert c.get_answer() == 0
+
+
 
