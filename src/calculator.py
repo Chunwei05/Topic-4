@@ -13,4 +13,9 @@ class Calculator:
         self.answer -= num
         return self
 
+    def multiply(self, num):
+        self.answer *= num
+        return self
+
+
 
