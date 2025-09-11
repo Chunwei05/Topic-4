@@ -21,6 +21,11 @@ class Calculator:
         self.answer **= num
         return self
 
+    def reset(self):
+        self.answer = 0
+        return self
+
+
 
 
 
