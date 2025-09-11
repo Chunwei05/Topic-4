@@ -9,4 +9,8 @@ class Calculator:
         self.answer += num
         return self
 
+    def subtract(self, num):
+        self.answer -= num
+        return self
+
 
