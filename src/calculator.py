@@ -1,4 +1,3 @@
-# src/calculator.py
 class Calculator:
     """
     Simple calculator that mantains internal 'answer' value and supports chaining.
